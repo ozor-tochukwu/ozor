@@ -1,0 +1,669 @@
+body {
+    margin: 0px;
+    overflow: auto;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+   
+.nav {
+    list-style-type: none;
+    background-color: rgb(103, 198, 253);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    width: 100%! important; 
+    display: flex;
+    height: 55px;
+    overflow: hidden;
+}
+
+#logo{
+    height: 30px;
+    width: 94px;
+}
+
+.bahose1 {
+    float: left;
+    display: flex;
+    padding: 10px;
+    width: 65%;
+}
+
+.baho {
+    float: right;
+    border-left: 1px solid white;
+    display: flex;
+    padding: 10px;
+    height: 60px;   
+}
+
+.baho > img{
+    height: 22px;
+    width: 22px;
+}
+.baho >a {
+    display: block;
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bahos {
+    border-left: 1px solid white;
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+}
+.biafra {
+    height: 400px;
+    display: block;
+}
+.igbo{
+    max-height: 50vh;
+    background-image: url(hotel/background.jpeg);
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    box-sizing: inherit;
+    display: block;
+}
+
+.ojukwu{
+    display: flex! important;
+    align-items: center;v
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: rgb(51, 51, 51, .5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enugu{
+    max-width: 100%;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: inherit;
+    display: block;
+    text-align: center;
+    color: inherit;
+}
+
+.h1{
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff! important;
+    position: relative;
+    font-size: 36px!important;
+    font-family: inherit;
+    line-height: 1.1;
+    text-align: center;
+    margin: .6em 0;
+    box-sizing: inherit;
+}
+
+.h2{
+    font-size: 21px;
+    color: #fff!important;
+    font-weight: 400;
+    margin-top: 0em;
+    position: relative;
+    margin: 10px;
+    font-family: inherit;
+    box-sizing: inherit;
+    line-height: 1.1;
+    display: block;
+    text-align: center;
+}
+
+.box{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    box-sizing: inherit;
+}
+
+.udi{
+    margin-top: -70px;
+    margin-bottom: 35px;
+    background: rgb(242, 243, 240);
+    width: 1050px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 120px;
+    box-shadow: 0 4px 14px rgba(0 0 .2);
+}
+
+.group{
+    display: flex;
+    padding: 40px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-bar{
+    width: 300px;
+    margin-right: 5px;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px thin rgb(231, 225, 225);
+}
+
+.checkin{
+    width: 200px;
+    margin-right: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.checkout{
+    width: 250px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.find{
+    width: 100px;
+    margin-left: 0px;
+    color: white;
+    padding: 10px 15px;
+    background-color: rgb(0, 162, 255);
+    border: whitesmoke;
+    border-radius: 5px;
+}
+.find:hover{
+    color: darkseagreen;
+}
+.city-house{
+    width: auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: auto;
+}
+
+#first{
+    font-weight: 700;
+    color: black;
+    font-size: 24px;
+    margin-top: 2px;
+    margin-bottom: 5px; 
+}
+#second{
+    color: black;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.hr{
+    border-top: 3px solid rgb(0, 162, 255);
+    margin: 1.5rem auto;
+    width: 40px;
+}
+.frequent{
+    display: grid;
+    width: 1000px;
+    margin: auto;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 100px;
+    align-content: center;
+    background-color: white;
+    grid-gap: 10px;
+    height: 200px;
+}
+.destination{
+   text-align: center;
+   background-color: white;
+   border: 3px solid rgb(0, 162, 255);
+   border-radius: 10px;
+   font-size: 15px;
+   align-content: center;
+} 
+
+.destination:hover{
+    background-color: rgb(0, 162, 255);
+}
+.destination:hover h2{
+    color: white;
+}
+.destination:hover p{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a > h2{
+    color: rgb(0, 162, 255);
+}
+a > p{
+    color: black;
+}
+
+.ph-city > h2 {
+    padding: 0px;
+    margin: 10px;
+    align-self: center;
+}
+.ph-city > p{
+    border-top: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.rooms{
+    max-width: 1000px;
+    margin: auto;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1.5px solid grey;
+    float: left;
+    width: 300px;
+}
+.zoom:hover {
+    box-shadow: inset 0px 0px 0 5000px rgba(75, 71, 71, 0.5);
+    opacity: .8;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.di{
+    margin: auto;
+    text-align: center;
+}
+
+.di h4{
+    color: rgb(0, 162, 255);
+}
+
+/* this is where past started */
+* {
+    box-sizing: border-box;
+}
+.ozoor1 {
+    width: 1000px;
+    margin: auto;
+    overflow: auto;
+}
+
+.main1 {
+    position: relative;
+    width: 300px;
+    margin: 15px;
+    float: left;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    filter: brightness(70%);
+}
+
+.overlay1 {
+    position: absolute;
+    color: whitesmoke;
+    bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    padding: 100px;
+    font-weight: 600;
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 80px;
+    padding: 30px;
+    text-align: center;
+    opacity: 0;
+}
+
+.main1:hover .overlay2 {
+    opacity: 1;
+}
+
+.a-link {
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.a-link:hover {
+    background-color: rgb(51, 182, 226);
+    border-color: rgb(51, 182, 226);
+}
+/* this is where it stop */
+
+
+
+.states{
+    display: grid;
+    align-content: center!important;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+    grid-gap: 10px;
+    margin: auto;
+    width: 1000px;
+    padding: 20px;
+}
+
+.state{
+    text-align: left;
+}
+.state > a{
+margin: 2px;
+border-bottom: 2px;
+color:rgb(0, 162, 255) ;
+text-decoration: none;
+font-size: 20px;
+}
+
+/* estate and house styling starts here  */
+
+.estate{
+    max-width: 1000px;
+    margin: auto;
+    height: 500px;
+}
+.house{
+    margin: 10px;
+    border-radius: 3px;
+    float: left;
+    padding: auto;
+    background-color: lawngreen;
+    height: 238px;
+    width: 298px;
+    background-image: url(hotel/enugu.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.house1{
+    margin: 10px;
+    border-radius: 3px;
+    float: left;
+    padding: auto;
+    background-color: lawngreen;
+    height: 238px;
+    width: 298px;
+    background-image: url(hotel/ebonyi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.house2{
+    margin: 10px;
+    border-radius: 3px;
+    float: left;
+    padding: auto;
+    background-color: lawngreen;
+    height: 238px;
+    width: 298px;
+    background-image: url(hotel/lagos-new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.house3{
+    margin: 10px;
+    border-radius: 3px;
+    float: left;
+    padding: auto;
+    background-color: lawngreen;
+    height: 238px;
+    width: 298px;
+    background-image: url(hotel/kano.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.house4{
+    margin: 10px;
+    border-radius: 3px;
+    float: left;
+    padding: auto;
+    background-color: lawngreen;
+    height: 238px;
+    width: 298px;
+    background-image: url(hotel/benincity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.house5{
+    margin: 10px;
+    border-radius: 3px;
+    float: left;
+    padding: auto;
+    background-color: lawngreen;
+    height: 238px;
+    width: 298px;
+    background-image: url(hotel/uyoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* special offer starts here */
+
+.special-deals{
+    background: rgb(248, 248, 248);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 230px;
+}
+.special{
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 20px;
+    text-align: center;
+}
+.special1{
+    width: 400px;
+    padding: 12px 30px;
+    margin: 10px;
+    /* box-sizing: border-box; */
+    border-radius:5px;
+    border: 1px thin grey;
+    outline: none;
+    /* border-top: grey; */
+  }
+  .sub{
+    width: 150px;
+    padding: 12px 30px;
+    /* margin: 10px; */
+    /* box-sizing: border-box; */
+    border-radius:5px;
+    border: 1px thin grey;
+    outline: none;
+    background-color: rgb(0, 162, 255) ;
+    color: white;
+  }
+
+
+  .wrapper{
+    width: 1000px;
+    margin: auto;
+    height: 150px;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    text-align: center;
+    /* overflow: auto; */
+    /* margin-left: 300px; */
+}
+.bbc{
+    margin: 10px;
+    border-radius: 3px;
+    float: left;
+    padding: auto;
+    background-image: url(hotel/BBC-new.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.forbes{
+    margin: 10px;
+    border-radius: 3px;
+    float: left;
+    padding: auto;
+    background-image: url(hotel/forbes-new.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.newsweek{
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 3px;
+    float: left;
+    padding: auto;
+    background-image: url(hotel/news.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cnn{
+    margin: 10px;
+    border-radius: 3px;
+    float: left;
+    background-image: url(hotel/itweb.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+.heading{
+    width: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.new-search{
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 30px 25px 50px;
+}
+.heading > div{
+    width: 200px;
+    padding: 1rem 0;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 162, 255);;
+}
+
+.house:hover .overlay{
+    opacity: 1;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 0;
+    display: block;
+
+}
+
+.get-app{
+    height: 500px;
+    background-color: rgb(223, 229, 250);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 100%;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.app-wall{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    margin-top: 95px;
+}
+
+.playstore > div{
+text-align: left;
+margin-top: 150px;
+font-size: 15px;
+padding: 3px;
+}
+
+.unlock-section{
+    height: 80px;
+    background-color: rgb(8, 68, 130);
+    display: flex;
+    width: 100%;
+}
+.unlock{
+    height: 80px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+.key{
+    display: flex;
+    height: 40px;
+    width: 600px;
+    font-weight: 300;
+    margin-top: auto;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.keywords{
+    height: 30px;
+    color: white;
+    text-align: left;
+    font-size: 13.5px;
+    line-height: .4;
+    margin-top: 10px;
+}
+
+.last1{
+    margin: auto;
+    margin-top: 30px;
+}
+
+.top1{
+    display: flex;
+    text-align: left;
+    width: 1000px;
+    margin: auto;
+    color: rgb(0, 162, 255);
+    line-height: 5px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    font-size: 14px;
+}
+
+.headies{
+    line-height: 15px;
+    color: rgb(161, 161, 161);
+    border-bottom: 1px solid rgb(212, 212, 212);
+    margin-bottom: 5px;
+}
